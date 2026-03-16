@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "content studio ibadan",
   ],
   metadataBase: new URL("https://www.abithub.tech"),
+  alternates: {
+    canonical: "https://www.abithub.tech",
+  },
   openGraph: {
     type: "website",
     locale: "en_NG",
@@ -29,6 +32,32 @@ export const metadata: Metadata = {
     title: "AbitHub — Build. Learn. Innovate.",
     description:
       "A convergence point for innovation, creativity, and learning in Soka, Ibadan, Nigeria.",
+    images: [
+      {
+        url: "/brand/Logo_Original.svg",
+        width: 1200,
+        height: 630,
+        alt: "AbitHub — Build. Learn. Innovate.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AbitHub — Build. Learn. Innovate.",
+    description:
+      "A convergence point for innovation, creativity, and learning in Soka, Ibadan, Nigeria.",
+    images: ["/brand/Logo_Original.svg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   icons: {
     icon: "/brand/Icon_Original.svg",

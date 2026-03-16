@@ -3,7 +3,19 @@ import LogoStrip from "@/components/shared/LogoStrip";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import WhyAbitHub from "@/components/home/WhyAbitHub";
 import CTASection from "@/components/shared/CTASection";
-import { organizationJsonLd, localBusinessJsonLd } from "@/lib/metadata";
+import {
+  createMetadata,
+  organizationJsonLd,
+  localBusinessJsonLd,
+} from "@/lib/metadata";
+
+export const metadata = createMetadata({
+  title: "Build. Learn. Innovate.",
+  description:
+    "AbitHub is a technology ecosystem in Soka, Ibadan, Nigeria — offering software development, tech training, and content studio services.",
+  keywords: ["tech hub ibadan", "abithub", "technology ibadan nigeria"],
+  path: "",
+});
 
 const partners = [
   { name: "Local SMEs" },

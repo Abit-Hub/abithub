@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 const SITE_URL = "https://www.abithub.tech";
 const SITE_NAME = "AbitHub";
+const DEFAULT_OG_IMAGE = "/brand/Logo_Original.svg";
 
 export function createMetadata({
   title,
@@ -20,6 +21,7 @@ export function createMetadata({
     title,
     description,
     keywords,
+    metadataBase: new URL(SITE_URL),
     openGraph: {
       title: `${title} | ${SITE_NAME}`,
       description,
@@ -27,9 +29,34 @@ export function createMetadata({
       siteName: SITE_NAME,
       locale: "en_NG",
       type: "website",
+      images: [
+        {
+          url: DEFAULT_OG_IMAGE,
+          width: 1200,
+          height: 630,
+          alt: `${title} | ${SITE_NAME}`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | ${SITE_NAME}`,
+      description,
+      images: [DEFAULT_OG_IMAGE],
     },
     alternates: {
       canonical: url,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
