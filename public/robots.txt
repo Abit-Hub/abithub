@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.abithub.tech
+
+# Sitemaps
+Sitemap: https://www.abithub.tech/sitemap.xml

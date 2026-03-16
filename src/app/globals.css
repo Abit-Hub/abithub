@@ -1,26 +1,252 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ── Elms Sans @font-face declarations ── */
+
+/* Thin — 100 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Thin.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-ThinItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraLight — 200 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-ExtraLight.woff2') format('woff2'),
+       url('/fonts/ElmsSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-ExtraLightItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light — 300 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Light.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-LightItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular — 400 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Regular.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Italic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium — 500 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Medium.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-MediumItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SemiBold — 600 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-SemiBold.woff2') format('woff2'),
+       url('/fonts/ElmsSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-SemiBoldItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold — 700 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Bold.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-BoldItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ExtraBold — 800 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-ExtraBold.woff2') format('woff2'),
+       url('/fonts/ElmsSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-ExtraBoldItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Black — 900 */
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-Black.woff2') format('woff2'),
+       url('/fonts/ElmsSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Elms Sans';
+  src: url('/fonts/ElmsSans-BlackItalic.woff2') format('woff2'),
+       url('/fonts/ElmsSans-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Brand Design Tokens ── */
+
+:root {
+  /* Primary */
+  --color-blue: #003366;
+  --color-teal: #0CC7B4;
+
+  /* Secondary */
+  --color-purple: #660050;
+  --color-green: #146600;
+  --color-orange: #C7680C;
+
+  /* Dark theme (default) */
+  --bg: #000810;
+  --surface: #1A2128;
+  --surface2: #4D5259;
+  --text: #F3F3F3;
+  --text-muted: #999C9F;
+  --border: rgba(77, 82, 89, 0.5);
+
+  /* Service accent colors */
+  --color-software: var(--color-teal);
+  --color-training: var(--color-orange);
+  --color-studio: var(--color-purple);
+}
+
+/* Light mode overrides */
+.light {
+  --bg: #FFFFFF;
+  --surface: #F5F5F5;
+  --surface2: #E0E0E0;
+  --text: #1A1A1A;
+  --text-muted: #666666;
+  --border: rgba(0, 0, 0, 0.1);
+}
+
+/* ── Tailwind theme integration ── */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--bg);
+  --color-foreground: var(--text);
+  --color-muted: var(--text-muted);
+  --color-surface: var(--surface);
+  --color-surface2: var(--surface2);
+  --color-border: var(--border);
+  --color-blue: var(--color-blue);
+  --color-teal: var(--color-teal);
+  --color-purple: var(--color-purple);
+  --color-green: var(--color-green);
+  --color-orange: var(--color-orange);
+  --font-sans: 'Elms Sans', system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ── Base styles ── */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Elms Sans', system-ui, sans-serif;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: var(--color-teal);
+  color: var(--bg);
+}
+
+/* Logo strip infinite scroll */
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
 }
