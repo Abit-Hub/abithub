@@ -1,44 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Image as ImageIcon, Lightbulb, Armchair, Maximize, Users, Clock } from "lucide-react";
+import { Lightbulb, Lamp, PanelTop, BookOpen, Armchair, Image as ImageIcon } from "lucide-react";
 
 const features = [
   {
-    icon: ImageIcon,
-    title: "5 Professional Backgrounds",
+    icon: Lightbulb,
+    title: "Track & Ring Lights",
     description:
-      "Multiple backdrop options for variety in your shoots — solid colours, textured, and themed setups. Expanding capacity regularly.",
+      "6 track lights and 2 ring lights — versatile lighting setups for any type of shoot.",
   },
   {
-    icon: Lightbulb,
-    title: "Studio Lighting",
+    icon: Lamp,
+    title: "LED Ambient Lighting",
     description:
-      "Professional lighting setups available. Softboxes, ring lights, and key lighting to make every shot look its best.",
+      "LED ambient strip lighting to set the mood and add depth to your shots.",
+  },
+  {
+    icon: PanelTop,
+    title: "Feature Walls",
+    description:
+      "Panelled feature walls for clean, modern backdrops that elevate every frame.",
+  },
+  {
+    icon: BookOpen,
+    title: "Props & Decor",
+    description:
+      "Styled shelves with decorative props — ready-made set dressing for your shoots.",
   },
   {
     icon: Armchair,
-    title: "Furniture & Props",
+    title: "Furniture",
     description:
-      "Chairs, tables, stools, and decorative props included. Set the scene without renting separately.",
+      "Round table, 3-seater sofa, and chair. Comfortable, styled pieces for portraits and content.",
   },
   {
-    icon: Maximize,
-    title: "Spacious Layout",
+    icon: ImageIcon,
+    title: "Backdrops & Tripod",
     description:
-      "Enough room for individual portraits, small group shoots, and product photography. Comfortable working space.",
-  },
-  {
-    icon: Users,
-    title: "Bring Your Own Equipment",
-    description:
-      "Use your own camera, lenses, and gear. We provide the environment — you bring the talent and tools.",
-  },
-  {
-    icon: Clock,
-    title: "Flexible Booking",
-    description:
-      "Book by the hour or for full-day sessions. Weekend and evening slots available to fit your schedule.",
+      "Multiple backdrop options plus a tripod stand. Everything you need to get the perfect shot.",
   },
 ];
 

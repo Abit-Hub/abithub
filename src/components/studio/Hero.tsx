@@ -38,9 +38,9 @@ export default function StudioHero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--text-muted)]"
         >
-          A professional rental studio in Soka, Ibadan. We provide the
-          backgrounds, lighting, and furniture — you bring your creativity and
-          equipment.
+          Professional content studio in Soka (New Felele), Ibadan. Track
+          lighting, ring lights, styled backdrops, props and furniture — bring
+          your own equipment or book with our partner photographer.
         </motion.p>
 
         <motion.div

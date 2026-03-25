@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { ThemeProvider } from "next-themes";
 import Navbar from "@/components/layout/Navbar";
@@ -80,6 +81,7 @@ export default function RootLayout({
           <main className="pt-16">{children}</main>
           <Footer />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

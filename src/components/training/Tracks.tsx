@@ -26,8 +26,6 @@ const tracks = [
     topics: [
       "HTML, CSS & JavaScript fundamentals",
       "React & modern frontend development",
-      "Backend development with Node.js",
-      "Database design (SQL & NoSQL)",
       "Version control with Git & GitHub",
       "Deployment & hosting basics",
     ],
@@ -46,8 +44,9 @@ export default function TrainingTracks() {
             Choose your learning path
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-[var(--text-muted)]">
-            Both tracks run as 8-week programs with practical, project-based
-            learning. Available for individuals and corporate teams.
+            Practical, project-based learning tracks. Computer Application
+            training runs on a flexible schedule; Software Development is a
+            3-month programme. Available for individuals and corporate teams.
           </p>
         </div>
 

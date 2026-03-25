@@ -15,7 +15,7 @@ const steps = [
   {
     title: "Learn by Building",
     description:
-      "8 weeks of hands-on, project-based sessions. Work on real projects with guidance from experienced instructors.",
+      "Hands-on, project-based sessions. Work on real projects with guidance from experienced instructors.",
   },
   {
     title: "Graduate & Grow",

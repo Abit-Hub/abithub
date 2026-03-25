@@ -25,7 +25,9 @@ export default function ContactForm({
   defaultService = "general",
   accentColor = "var(--color-teal)",
 }: ContactFormProps) {
-  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error"
+  >("idle");
 
   const {
     register,
@@ -66,10 +68,10 @@ export default function ContactForm({
 
   if (status === "success") {
     return (
-      <div className="flex flex-col items-center gap-3 rounded-2xl border border-border bg-[var(--surface)] p-8 text-center">
+      <div className="flex flex-col items-center gap-3 rounded-2xl border border-border bg-surface p-8 text-center">
         <CheckCircle size={40} style={{ color: accentColor }} />
-        <h3 className="text-xl font-semibold text-[var(--text)]">Message sent!</h3>
-        <p className="text-sm text-[var(--text-muted)]">
+        <h3 className="text-xl font-semibold text-foreground">Message sent!</h3>
+        <p className="text-sm text-muted">
           We&apos;ll get back to you within 24 hours.
         </p>
         <button
@@ -86,7 +88,7 @@ export default function ContactForm({
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-4 rounded-2xl border border-border bg-[var(--surface)] p-6 sm:p-8"
+      className="space-y-4 rounded-2xl border border-border bg-surface p-6 sm:p-8"
     >
       {status === "error" && (
         <div className="flex items-center gap-2 rounded-lg bg-red-500/10 px-4 py-3 text-sm text-red-400">
@@ -98,14 +100,17 @@ export default function ContactForm({
       <div className="grid gap-4 sm:grid-cols-2">
         {/* Name */}
         <div>
-          <label htmlFor="name" className="mb-1.5 block text-sm font-medium text-[var(--text)]">
+          <label
+            htmlFor="name"
+            className="mb-1.5 block text-sm font-medium text-foreground"
+          >
             Name
           </label>
           <input
             id="name"
             {...register("name")}
             placeholder="Your name"
-            className="h-11 w-full rounded-lg border border-border bg-[var(--bg)] px-4 text-sm text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2"
+            className="h-11 w-full rounded-lg border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted focus:outline-none focus:ring-2"
             style={{ "--tw-ring-color": accentColor } as React.CSSProperties}
           />
           {errors.name && (
@@ -115,7 +120,10 @@ export default function ContactForm({
 
         {/* Email */}
         <div>
-          <label htmlFor="email" className="mb-1.5 block text-sm font-medium text-[var(--text)]">
+          <label
+            htmlFor="email"
+            className="mb-1.5 block text-sm font-medium text-foreground"
+          >
             Email
           </label>
           <input
@@ -123,7 +131,7 @@ export default function ContactForm({
             type="email"
             {...register("email")}
             placeholder="you@example.com"
-            className="h-11 w-full rounded-lg border border-border bg-[var(--bg)] px-4 text-sm text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2"
+            className="h-11 w-full rounded-lg border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted focus:outline-none focus:ring-2"
             style={{ "--tw-ring-color": accentColor } as React.CSSProperties}
           />
           {errors.email && (
@@ -135,28 +143,34 @@ export default function ContactForm({
       <div className="grid gap-4 sm:grid-cols-2">
         {/* Phone */}
         <div>
-          <label htmlFor="phone" className="mb-1.5 block text-sm font-medium text-[var(--text)]">
-            Phone <span className="text-[var(--text-muted)]">(optional)</span>
+          <label
+            htmlFor="phone"
+            className="mb-1.5 block text-sm font-medium text-foreground"
+          >
+            Phone <span className="text-muted">(optional)</span>
           </label>
           <input
             id="phone"
             type="tel"
             {...register("phone")}
             placeholder="+234 800 000 0000"
-            className="h-11 w-full rounded-lg border border-border bg-[var(--bg)] px-4 text-sm text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2"
+            className="h-11 w-full rounded-lg border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted focus:outline-none focus:ring-2"
             style={{ "--tw-ring-color": accentColor } as React.CSSProperties}
           />
         </div>
 
         {/* Service */}
         <div>
-          <label htmlFor="service" className="mb-1.5 block text-sm font-medium text-[var(--text)]">
+          <label
+            htmlFor="service"
+            className="mb-1.5 block text-sm font-medium text-foreground"
+          >
             Service
           </label>
           <select
             id="service"
             {...register("service")}
-            className="h-11 w-full rounded-lg border border-border bg-[var(--bg)] px-4 text-sm text-[var(--text)] focus:outline-none focus:ring-2"
+            className="h-11 w-full rounded-lg border border-border bg-background px-4 text-sm text-foreground focus:outline-none focus:ring-2"
             style={{ "--tw-ring-color": accentColor } as React.CSSProperties}
           >
             <option value="general">General Inquiry</option>
@@ -169,7 +183,10 @@ export default function ContactForm({
 
       {/* Message */}
       <div>
-        <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-[var(--text)]">
+        <label
+          htmlFor="message"
+          className="mb-1.5 block text-sm font-medium text-foreground"
+        >
           Message
         </label>
         <textarea
@@ -177,7 +194,7 @@ export default function ContactForm({
           rows={4}
           {...register("message")}
           placeholder="Tell us about your project or what you need..."
-          className="w-full rounded-lg border border-border bg-[var(--bg)] px-4 py-3 text-sm text-[var(--text)] placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2"
+          className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted focus:outline-none focus:ring-2"
           style={{ "--tw-ring-color": accentColor } as React.CSSProperties}
         />
         {errors.message && (
@@ -189,7 +206,7 @@ export default function ContactForm({
       <button
         type="submit"
         disabled={status === "sending"}
-        className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full text-base font-semibold text-[var(--bg)] transition-opacity hover:opacity-90 disabled:opacity-60 sm:w-auto sm:px-8"
+        className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-full text-base font-semibold text-background transition-opacity hover:opacity-90 disabled:opacity-60 sm:w-auto sm:px-8"
         style={{ backgroundColor: accentColor }}
       >
         {status === "sending" ? (

@@ -20,7 +20,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-[var(--bg)]/80 backdrop-blur-md">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-(--bg)/80 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 lg:px-8">
         {/* Logo */}
         <Link href="/" className="shrink-0">
@@ -33,7 +33,7 @@ export default function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-sm font-medium text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
+                className="text-sm font-medium text-muted transition-colors hover:text-foreground"
               >
                 {link.label}
               </Link>
@@ -48,7 +48,7 @@ export default function Navbar() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-[var(--color-teal)] px-5 py-2 text-sm font-semibold text-[var(--bg)] transition-opacity hover:opacity-90"
+            className="rounded-full bg-teal px-5 py-2 text-sm font-semibold text-background transition-opacity hover:opacity-90"
           >
             Chat on WhatsApp
           </a>
@@ -57,7 +57,7 @@ export default function Navbar() {
         {/* Mobile menu button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="inline-flex items-center justify-center text-[var(--text)] md:hidden"
+          className="inline-flex items-center justify-center text-foreground md:hidden"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -72,7 +72,7 @@ export default function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="overflow-hidden border-t border-border bg-[var(--bg)] md:hidden"
+            className="overflow-hidden border-t border-border bg-background md:hidden"
           >
             <ul className="flex flex-col gap-1 px-5 py-4">
               {navLinks.map((link) => (
@@ -80,7 +80,7 @@ export default function Navbar() {
                   <Link
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block rounded-lg px-3 py-2.5 text-base font-medium text-[var(--text-muted)] transition-colors hover:bg-[var(--surface)] hover:text-[var(--text)]"
+                    className="block rounded-lg px-3 py-2.5 text-base font-medium text-muted transition-colors hover:bg-surface hover:text-foreground"
                   >
                     {link.label}
                   </Link>
@@ -88,14 +88,14 @@ export default function Navbar() {
               ))}
               <li className="flex items-center gap-3 px-3 pt-2">
                 <ThemeToggle />
-                <span className="text-sm text-[var(--text-muted)]">Theme</span>
+                <span className="text-sm text-muted">Theme</span>
               </li>
               <li className="pt-2">
                 <a
                   href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block rounded-full bg-[var(--color-teal)] px-5 py-2.5 text-center text-base font-semibold text-[var(--bg)]"
+                  className="block rounded-full bg-teal px-5 py-2.5 text-center text-base font-semibold text-background"
                 >
                   Chat on WhatsApp
                 </a>

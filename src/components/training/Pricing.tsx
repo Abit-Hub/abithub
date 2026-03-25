@@ -1,46 +1,54 @@
+"use client";
+
+import { motion } from "framer-motion";
 import SectionHeader from "@/components/shared/SectionHeader";
 import PricingCard from "@/components/shared/PricingCard";
 
 const tiers = [
   {
-    name: "Individual",
-    price: "\u20A628,000",
-    description: "8-week program for a single learner.",
+    name: "Computer Application Training",
+    price: "From \u20A630,000",
+    description: "Flexible schedule — learn at your own pace.",
     features: [
-      "Choose IT Skills or Software Dev track",
-      "8 weeks of hands-on training",
-      "Project-based curriculum",
-      "Small class sizes",
+      "Computer fundamentals",
+      "Microsoft Office Suite",
+      "Internet & email",
+      "CBT exam preparation",
       "Certificate of completion",
-      "Post-training support",
+      "Registration fee: \u20A65,000 (applied to tuition)",
     ],
   },
   {
-    name: "Corporate Basic",
-    price: "\u20A650,000",
-    description: "Per person, team training package.",
+    name: "Software Development Training",
+    price: "From \u20A6300,000",
+    description: "3 months — 3 days/week, weekdays.",
     features: [
-      "Minimum 5 participants",
-      "Customised curriculum",
-      "Flexible scheduling",
-      "On-site or at AbitHub",
-      "Progress reports per participant",
-      "Dedicated instructor",
+      "HTML & CSS",
+      "JavaScript",
+      "React",
+      "Git & Version Control",
+      "Real project deployment",
+      "GitHub portfolio",
+      "Certificate of completion",
+      "Letter of recommendation",
+      "Registration fee: \u20A610,000 (applied to tuition)",
     ],
     featured: true,
   },
+];
+
+const paymentPlans = [
   {
-    name: "Corporate Premium",
-    price: "\u20A6100,000",
-    description: "Per person, intensive executive package.",
-    features: [
-      "All Corporate Basic features",
-      "1-on-1 mentoring sessions",
-      "Extended 12-week curriculum",
-      "Priority scheduling",
-      "Custom project development",
-      "6-month post-training support",
-    ],
+    name: "Full Payment",
+    detail: "\u20A6300,000 upfront",
+  },
+  {
+    name: "Split Plan",
+    detail: "\u20A6180,000 upfront + \u20A6120,000 at Month 2",
+  },
+  {
+    name: "Installment Plan",
+    detail: "\u20A6120,000 + \u20A6100,000 + \u20A680,000",
   },
 ];
 
@@ -55,7 +63,7 @@ export default function TrainingPricing() {
           accent="var(--color-orange)"
         />
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:max-w-3xl lg:mx-auto">
           {tiers.map((tier, i) => (
             <PricingCard
               key={tier.name}
@@ -65,6 +73,38 @@ export default function TrainingPricing() {
             />
           ))}
         </div>
+
+        {/* Payment Plans for Software Development */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-40px" }}
+          transition={{ duration: 0.5 }}
+          className="mx-auto mt-14 max-w-3xl rounded-2xl border border-border bg-[var(--surface)] p-8"
+        >
+          <h3 className="text-lg font-bold text-[var(--text)]">
+            Payment Plans — Software Development
+          </h3>
+          <p className="mt-2 text-sm text-[var(--text-muted)]">
+            Choose the option that works best for you.
+          </p>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-3">
+            {paymentPlans.map((plan) => (
+              <div
+                key={plan.name}
+                className="rounded-xl border border-border bg-[var(--bg)] p-5"
+              >
+                <p className="text-sm font-semibold text-[var(--color-orange)]">
+                  {plan.name}
+                </p>
+                <p className="mt-2 text-sm text-[var(--text-muted)]">
+                  {plan.detail}
+                </p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );

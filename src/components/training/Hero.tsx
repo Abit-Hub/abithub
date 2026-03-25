@@ -39,8 +39,8 @@ export default function TrainingHero() {
           className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--text-muted)]"
         >
           Practical IT skills and software development training — designed for
-          the Nigerian reality. 8-week programs for individuals, plus tailored
-          packages for corporate teams.
+          the Nigerian reality. Flexible and 3-month programmes for individuals,
+          plus tailored packages for corporate teams.
         </motion.p>
 
         <motion.div

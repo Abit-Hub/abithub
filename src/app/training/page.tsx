@@ -10,7 +10,7 @@ import { createMetadata, serviceJsonLd } from "@/lib/metadata";
 export const metadata = createMetadata({
   title: "Training",
   description:
-    "IT skills, digital literacy, and software development training in Ibadan. 8-week programs for individuals and corporate teams.",
+    "IT skills, digital literacy, and software development training in Ibadan. Flexible and 3-month programmes for individuals and corporate teams.",
   keywords: [
     "tech training ibadan",
     "coding bootcamp nigeria",
@@ -31,7 +31,7 @@ export default function TrainingPage() {
             serviceJsonLd({
               name: "Tech Training",
               description:
-                "IT skills, digital literacy, and software development training. 8-week programs for individuals and corporate teams in Ibadan.",
+                "IT skills, digital literacy, and software development training. Flexible and 3-month programmes for individuals and corporate teams in Ibadan.",
               path: "/training",
             })
           ),

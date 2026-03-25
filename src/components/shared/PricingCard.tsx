@@ -29,36 +29,34 @@ export default function PricingCard({
       viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
       className={`relative flex flex-col rounded-2xl border p-8 ${
-        featured
-          ? "border-[color:var(--accent)] bg-[var(--surface)]"
-          : "border-border bg-[var(--surface)]"
+        featured ? "border-(--accent) bg-surface" : "border-border bg-surface"
       }`}
       style={{ "--accent": accent } as React.CSSProperties}
     >
       {featured && (
         <span
-          className="absolute -top-3 left-6 rounded-full px-3 py-1 text-xs font-semibold text-[var(--bg)]"
+          className="absolute -top-3 left-6 rounded-full px-3 py-1 text-xs font-semibold text-background"
           style={{ backgroundColor: accent }}
         >
           Most Popular
         </span>
       )}
 
-      <h3 className="text-lg font-bold text-[var(--text)]">{name}</h3>
-      <p className="mt-1 text-sm text-[var(--text-muted)]">{description}</p>
+      <h3 className="text-lg font-bold text-foreground">{name}</h3>
+      <p className="mt-1 text-sm text-muted">{description}</p>
 
       <div className="mt-5">
-        <span
-          className="text-3xl font-black"
-          style={{ color: accent }}
-        >
+        <span className="text-3xl font-black" style={{ color: accent }}>
           {price}
         </span>
       </div>
 
       <ul className="mt-6 flex-1 space-y-3">
         {features.map((feature) => (
-          <li key={feature} className="flex items-start gap-2 text-sm text-[var(--text-muted)]">
+          <li
+            key={feature}
+            className="flex items-start gap-2 text-sm text-muted"
+          >
             <Check
               size={16}
               className="mt-0.5 shrink-0"
@@ -75,8 +73,8 @@ export default function PricingCard({
         rel="noopener noreferrer"
         className={`mt-8 inline-flex h-11 items-center justify-center rounded-full text-sm font-semibold transition-opacity hover:opacity-90 ${
           featured
-            ? "text-[var(--bg)]"
-            : "border border-[color:var(--accent)] text-[color:var(--accent)]"
+            ? "text-background"
+            : "border border-(--accent) text-(--accent)"
         }`}
         style={featured ? { backgroundColor: accent } : undefined}
       >
