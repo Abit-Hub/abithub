@@ -17,13 +17,13 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-border bg-[var(--surface)]">
+    <footer className="border-t border-border bg-surface">
       <div className="mx-auto max-w-7xl px-5 py-12 lg:px-8 lg:py-16">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <ThemeLogo width={120} height={40} />
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-[var(--text-muted)]">
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
               Build. Learn. Innovate. — A convergence point for innovation,
               creativity, and learning in Ibadan, Nigeria.
             </p>
@@ -31,7 +31,7 @@ export default function Footer() {
 
           {/* Explore */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text)]">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
               Explore
             </h3>
             <ul className="mt-4 space-y-3">
@@ -39,7 +39,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--color-teal)]"
+                    className="text-sm text-muted transition-colors hover:text-teal"
                   >
                     {link.label}
                   </Link>
@@ -50,30 +50,30 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text)]">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
               Contact
             </h3>
             <ul className="mt-4 space-y-3">
-              <li className="flex items-start gap-2 text-sm text-[var(--text-muted)]">
-                <MapPin size={16} className="mt-0.5 shrink-0 text-[var(--color-teal)]" />
-                Soka, Ibadan, Oyo State, Nigeria
+              <li className="flex items-start gap-2 text-sm text-muted">
+                <MapPin size={16} className="mt-0.5 shrink-0 text-teal" />
+                No. 12 Unity Street, Adjacent to Addin, Along Idi Mango Rd, Soka (New Felele), Ibadan, Oyo State
               </li>
               <li>
                 <a
                   href="tel:+2348153853704"
-                  className="flex items-center gap-2 text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--color-teal)]"
+                  className="flex items-center gap-2 text-sm text-muted transition-colors hover:text-teal"
                 >
-                  <Phone size={16} className="shrink-0 text-[var(--color-teal)]" />
+                  <Phone size={16} className="shrink-0 text-teal" />
                   +234 815 385 3704
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:admin@abithub.tech"
-                  className="flex items-center gap-2 text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--color-teal)]"
+                  href="mailto:info@abithub.tech"
+                  className="flex items-center gap-2 text-sm text-muted transition-colors hover:text-teal"
                 >
-                  <Mail size={16} className="shrink-0 text-[var(--color-teal)]" />
-                  admin@abithub.tech
+                  <Mail size={16} className="shrink-0 text-teal" />
+                  info@abithub.tech
                 </a>
               </li>
             </ul>
@@ -81,7 +81,7 @@ export default function Footer() {
 
           {/* Socials */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text)]">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
               Follow Us
             </h3>
             <ul className="mt-4 space-y-3">
@@ -91,7 +91,7 @@ export default function Footer() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--color-teal)]"
+                    className="text-sm text-muted transition-colors hover:text-teal"
                   >
                     {link.label}
                   </a>
@@ -102,7 +102,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 border-t border-border pt-6 text-center text-xs text-[var(--text-muted)]">
+        <div className="mt-12 border-t border-border pt-6 text-center text-xs text-muted">
           &copy; {new Date().getFullYear()} AbitHub. All rights reserved.
         </div>
       </div>

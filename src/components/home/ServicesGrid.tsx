@@ -19,7 +19,7 @@ const services = [
     icon: GraduationCap,
     title: "Training",
     description:
-      "IT skills, digital literacy, and hands-on software development training. 8-week programs for individuals and corporate teams.",
+      "IT skills, digital literacy, and hands-on software development training. Flexible and 3-month programmes for individuals and corporate teams.",
     accent: "var(--color-orange)",
     tag: "From \u20A628,000",
   },
@@ -28,9 +28,9 @@ const services = [
     icon: Camera,
     title: "Content Studio",
     description:
-      "Professional rental studio in Soka, Ibadan. Backgrounds, lighting, and furniture provided — bring your own equipment.",
+      "Professional content studio in Soka (New Felele), Ibadan. Track lighting, ring lights, styled backdrops, props and furniture — bring your own equipment or book with our partner photographer.",
     accent: "var(--color-purple)",
-    tag: "From \u20A68,000",
+    tag: "From \u20A63,000",
   },
 ];
 
