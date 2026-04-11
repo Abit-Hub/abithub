@@ -5,12 +5,12 @@ const steps = [
   {
     title: "Choose Your Track",
     description:
-      "Pick IT Skills & Digital Literacy or Software Development based on your goals and experience level.",
+      "Pick Frontend Development, UI/UX Design, or Backend Development — or go full stack with both Frontend and Backend.",
   },
   {
-    title: "Enrol & Onboard",
+    title: "Pay Your Commitment Fee",
     description:
-      "Register via WhatsApp or our form. Get your schedule, materials, and access to the learning environment.",
+      "Secure your cohort slot with a commitment fee of \u20A650,000–\u20A6100,000. It\u2019s applied to your total tuition — not an extra charge.",
   },
   {
     title: "Learn by Building",
@@ -20,11 +20,11 @@ const steps = [
   {
     title: "Graduate & Grow",
     description:
-      "Complete your program with a portfolio of real work. Get support transitioning into freelancing or employment.",
+      "Complete your track with a certificate, portfolio of deployed projects, GitHub profile, and a letter of recommendation.",
   },
 ];
 
-export default function TrainingProcess() {
+export default function AcademyProcess() {
   return (
     <section className="border-t border-border px-5 py-20 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-7xl">

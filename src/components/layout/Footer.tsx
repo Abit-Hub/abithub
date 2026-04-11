@@ -5,8 +5,9 @@ import ThemeLogo from "@/components/shared/ThemeLogo";
 const exploreLinks = [
   { href: "/", label: "Home" },
   { href: "/software", label: "Software Development" },
-  { href: "/training", label: "Training" },
+  { href: "/academy", label: "Tech Academy" },
   { href: "/studio", label: "Content Studio" },
+  { href: "/coworking", label: "Co-working Space" },
 ];
 
 const socialLinks = [

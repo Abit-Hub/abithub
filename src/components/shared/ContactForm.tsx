@@ -10,14 +10,14 @@ const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.email("Please enter a valid email"),
   phone: z.string().optional(),
-  service: z.enum(["software", "training", "studio", "general"]),
+  service: z.enum(["software", "academy", "studio", "coworking", "general"]),
   message: z.string().min(10, "Message must be at least 10 characters"),
 });
 
 type ContactFormData = z.infer<typeof contactSchema>;
 
 interface ContactFormProps {
-  defaultService?: "software" | "training" | "studio" | "general";
+  defaultService?: "software" | "academy" | "studio" | "coworking" | "general";
   accentColor?: string;
 }
 
@@ -175,8 +175,9 @@ export default function ContactForm({
           >
             <option value="general">General Inquiry</option>
             <option value="software">Software Development</option>
-            <option value="training">Training</option>
+            <option value="academy">Tech Academy</option>
             <option value="studio">Content Studio</option>
+            <option value="coworking">Co-working Space</option>
           </select>
         </div>
       </div>

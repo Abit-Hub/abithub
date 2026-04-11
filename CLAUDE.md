@@ -1,153 +1,211 @@
-# AbitHub — CLAUDE.md
+# Abit Hub — CLAUDE.md
 
-> This file is the single source of truth for Claude Code working on the AbitHub website.
+> This file is the single source of truth for Claude Code working on the Abit Hub website.
 > Read this fully before making any decisions. Never deviate from these specs without explicit instruction.
+> Last updated: April 2026
 
 ---
 
 ## 🏢 Business Overview
 
-**AbitHub** is a comprehensive technology ecosystem located in **Soka, Ibadan, Nigeria**.
-It serves as a convergence point for innovation, creativity, and learning.
+**Abit Technology Hub** (short form: **Abit Hub**) is a technology hub located in **Soka (New Felele), Ibadan, Nigeria**.
 
 - **Website**: www.abithub.tech
 - **Tagline**: Build. Learn. Innovate.
-- **Core Value**: Affordable Excellence — truthfulness is the foundational business principle
-- **Mission**: Create a sustainable, profitable tech hub serving multiple audiences in the Nigerian tech space
+- **Core Value**: Truthfulness — all content must be honest and accurately reflect what the hub currently offers
+- **Phone**: +234 815 385 3704
+- **Email**: info@abithub.tech
+- **Address**: No. 12 Unity Street, Adjacent to Addin, Along Idi Mango Rd, Soka (New Felele), Ibadan, Oyo State, Nigeria
+- **Social handle**: @abithub (Instagram, TikTok, X)
 
 ---
 
-## 🎯 Three Core Services (Website Focus)
+## 🎯 Four Services (Website Focus)
 
 ### 1. Software Development
 - Full-stack software development for Nigerian businesses and international clients
 - Freelance platform access (Upwork, Fiverr, Toptal) for global market
 - Pricing: $500 (landing pages) → $20,000 (mobile apps)
 - Target: Local SMEs, startups, international clients via freelance platforms
+- Service colour: ABIT Teal `#0CC7B4`
 
-### 2. Training
-Two tracks offered under one Training service:
+### 2. Abit Hub Tech Academy (Training)
+- Cohort-based software development training
+- Maximum 10 students per cohort
+- New cohort every 3 months
+- 3 days per week, weekdays
+- No prior experience required
 
-**Track A — IT Skills & Digital Literacy**
-- Foundational tech skills for individuals and corporate teams
-- Microsoft Office, internet tools, data management, productivity software
-- Addresses local challenges: power management, data costs
+**Three tracks:**
 
-**Track B — Software Development Training**
-- Practical coding and development skills: web, mobile, backend
-- Project-based learning with real-world applications
-- Beginner to intermediate level
+**Track 1 — Frontend Development** `₦350,000 / 3 months`
+- Month 1: HTML5, CSS3, Git & GitHub, command line, how the web works
+- Month 2: JavaScript (ES6+), DOM manipulation, APIs & Fetch, debugging
+- Month 3: React, React Router, Tailwind CSS, deployment (Vercel/Netlify), capstone project
 
-**Both Tracks:**
-- 8-week curriculum structure for individuals
-- Three-tier corporate training packages
-- Pricing: ₦28,000 – ₦100,000 per person
-- Target: Students, career changers, corporate teams, universities, developers upskilling
-- Available as individual enrollment or corporate packages
+**Track 2 — UI/UX Design** `₦350,000 / 3 months`
+- Month 1: Design thinking, user research, personas, empathy mapping, Figma fundamentals
+- Month 2: Typography, colour theory, component design, design systems, micro-interactions
+- Month 3: High-fidelity prototyping, usability testing, mobile-first design, portfolio building, capstone project
+
+**Track 3 — Backend Development** `₦400,000 / 3 months`
+- Month 1: Node.js, Express.js, REST API design, Postman, Git, environment variables
+- Month 2: PostgreSQL, MongoDB, Prisma, Mongoose, JWT authentication, authorisation, Zod validation
+- Month 3: File uploads, Nodemailer/Resend, Paystack API, testing with Jest, deployment (Railway/Render), capstone project
+
+**Bundle — Full Stack (Frontend + Backend)** `₦650,000 / 6 months`
+- Combines Frontend (months 1–3) + Backend (months 4–6)
+- Students save ₦100,000 vs enrolling separately
+
+**Payment structure:**
+- Commitment fee: ₦50,000–₦100,000 (secures cohort slot, applied to total tuition)
+- Balance paid on agreed schedule — discussed individually
+- NO registration fee — the commitment fee replaces it
+
+**What every graduate receives:**
+- Certificate of completion
+- Real project portfolio (minimum 3 deployed projects)
+- GitHub profile with live projects
+- Letter of recommendation from Abit Hub Tech Academy
+
+- Service colour: ABIT Orange `#C7680C`
 
 ### 3. Content Studio
-- Professional rental studio in Soka, Ibadan (currently 70% complete)
-- Provides backgrounds, lighting, and furniture — clients bring own equipment
-- 5 backgrounds available, expanding capacity
-- Pricing: ₦8,000 (basic headshots) → ₦120,000 (full event coverage)
-- Target: Photographers, content creators, businesses, graduates
+- Professional content studio — clients can bring own equipment OR book with our partner photographer
+- Studio is fully operational
+
+**Studio Rental (Bring Your Own Camera/Photographer):**
+- 30 minutes — ₦10,000
+- 1 hour — ₦18,000
+- 2 hours — ₦30,000
+- Half day (4 hours) — ₦50,000
+- Full day (8 hours) — ₦90,000
+
+**Portrait Packages (Photographer Provided):**
+- Basic — ₦12,000 (1 outfit, 15–20 min session, 3 edited photos, basic retouching, 1–2 day delivery)
+- Standard — ₦18,000 (2 outfits, 25–35 min session, 5 edited photos, basic retouching, 2–3 day delivery)
+- Premium — ₦25,000 (3 outfits, 45–60 min session, 8 edited photos, enhanced retouching, 2–3 day delivery)
+
+**Walk-in Per Picture:**
+- ₦3,000 per photo — minimum 5 photos (₦15,000 minimum spend)
+
+**Add-ons:**
+- Extra edited photo — ₦1,000
+- Extra outfit change — ₦2,000
+- Urgent delivery — ₦2,000
+- Heavy beauty retouching — priced on request
+
+**Studio equipment available:**
+- Track lights + ring lights
+- LED ambient strip lighting
+- Panelled feature walls
+- Styled shelves with decorative props
+- Round table, sofa, chair
+- Multiple backdrop options
+- Tripod stand
+
+**Important:** Do NOT describe the studio as a "full-service production house." It is a rental/session model — clients use the studio infrastructure. Full-service production equipment (professional LED 800W, softbox, professional camera) is a future expansion goal, not current offering.
+
+- Service colour: ABIT Purple `#660050`
+
+### 4. Co-working Space
+- Professional workspace for freelancers, remote workers, and entrepreneurs
+- 55 Mbps internet (Airtel ODU unlimited)
+- Reliable solar power (3.2KVA inverter, 2×220AH tubular batteries, 4 panels) — no NEPA interruptions
+- Located in Soka (New Felele), Ibadan
+
+**Hot Desk (Regular Workspace):**
+- Daily — ₦3,000
+- Weekly — ₦18,000
+- Monthly — ₦60,000
+
+**Private Room:**
+- Per hour — ₦3,000
+- Half day — ₦10,000
+- Full day — ₦18,000
+
+**What's included:** High-speed internet, solar power, professional environment, access to content studio (bookable separately)
+
+- Service colour: ABIT Blue `#003366`
 
 ---
 
 ## 🔍 Design Reference — notzero.tech
 
-Notzero (a Nigerian tech studio also based in Ibadan) is the closest reference for what AbitHub's website should feel and function like. Study it carefully. Key patterns to replicate and improve on:
+Notzero is a Nigerian tech hub based in Akobo, Ibadan — a direct competitor. Key patterns to replicate and improve on:
 
 ### Structure Patterns to Follow
-- **Single-page architecture per service** — each service (Software Studio, Academy, Co-Working) is its own landing page with focused content, not a tabbed section
-- **Sticky minimal navbar** — logo left, nav links center/right, one primary CTA button (WhatsApp/Book a Call)
-- **Hero is BIG and bold** — large statement headline, short subtext, two CTAs (primary + secondary)
-- **Partner/client logo strip** — scrolling or static row of logos builds instant credibility below the hero
-- **About section** — Vision, Mission, Uniqueness in a 3-card layout with icons
-- **Services section** — alternating image + text layout, each service has a GIF/visual + headline + description
-- **Projects/Portfolio** — showcase real work with client names and links
-- **Process section** — numbered steps (01, 02, 03...) showing how they work
-- **Tech Stack section** — categorized tool logos (Design, Mobile, Frontend, Backend, Cloud, AI, etc.)
-- **CTA section** — full-width closing section: "Ready to bring your idea to life?" + single action button
-- **Footer** — logo, tagline, nav links, contact info (address, phone, email), social icons
+- **Single-page architecture per service** — each service is its own landing page with focused content
+- **Sticky minimal navbar** — logo left, nav links centre/right, one primary CTA button (WhatsApp)
+- **Hero is BIG and bold** — large statement headline, short subtext, two CTAs
+- **Partner/client logo strip** — builds instant credibility below the hero
+- **About section** — Vision, Mission, Uniqueness in a 3-card layout
+- **Services section** — alternating image + text layout
+- **Process section** — numbered steps (01, 02, 03...)
+- **Pricing section** — tiered pricing cards (Abit Hub's key differentiator — Notzero has NO public pricing)
+- **CTA section** — full-width closing section with single action button
+- **Footer** — logo, tagline, nav links, contact info, social icons
 
-### Navigation Model
-- Main navbar links to the 3 separate service pages (Software Studio → Academy → Co-Working)
-- Footer repeats the same navigation with an "Explore" section
-- WhatsApp CTA is persistent — appears in nav, hero, services section, and footer
-
-### Tone & Copy Style
-- Headlines are action-oriented and inspiring: "Building software that inspires trust, delivers beauty, and drives growth"
-- Subheadlines clarify the value: "We build reliable, beautiful software that customers love and businesses need"
-- Copy is concise — no long paragraphs, everything is scannable
-- Nigerian context is subtle — address is local, WhatsApp is primary contact, Paystack is referenced
-
-### What AbitHub Should Do Better Than Notzero
-- **Pricing transparency** — Notzero has no pricing; AbitHub should show clear tiers (major differentiator)
-- **3 distinct service identities** — each page should feel visually distinct using the service color coding
-- **Lead capture forms** — Notzero only uses WhatsApp; AbitHub should have proper forms + WhatsApp
-- **SEO optimization** — structured data, meta tags, sitemap that Notzero likely lacks
+### What Abit Hub Does Better Than Notzero
+- **Pricing transparency** — show clear tiers on every service page
+- **4 distinct services** — software, training, studio, co-working
+- **Solar power** — uninterrupted power is a real differentiator in Ibadan
+- **Lead capture forms** — WhatsApp + proper forms
+- **SEO** — structured data, meta tags, sitemap
 
 ---
 
 ## 🌐 Website Architecture
 
 ```
-abithub.tech/                    → Main hub landing page
-abithub.tech/software            → Software Development service page
-abithub.tech/training            → Training page (IT Skills + Software Dev)
-abithub.tech/studio              → Content Studio service page
+abithub.tech/              → Main hub landing page (4 service cards)
+abithub.tech/software      → Software Development page
+abithub.tech/academy       → Tech Academy page (was /training)
+abithub.tech/studio        → Content Studio page
+abithub.tech/coworking     → Co-working Space page (NEW)
 ```
 
-### Each Service Page Section Order (follow this sequence)
-1. **Hero** — Bold headline, subtext, 2 CTAs (primary button + WhatsApp)
-2. **Partner/Client Logos** — Scrolling strip of logos for social proof
-3. **About** — Vision, Mission, Uniqueness (3-card layout with icons)
-4. **Services** — What's included, alternating image/text layout
-5. **Portfolio/Work** — Past projects or studio shots (use placeholders if none yet)
-6. **Process** — Numbered steps (01, 02, 03...) showing how it works
-7. **Tech Stack** — For software page: categorized tool logos. For training: curriculum breakdown. For studio: equipment list.
-8. **Pricing** — Tiered pricing cards (AbitHub's key differentiator vs competitors)
-9. **CTA Section** — Full-width "Ready to get started?" + WhatsApp + form link
-10. **Footer** — Consistent across all pages
+### Each Service Page Section Order
+1. Hero — Bold headline, subtext, 2 CTAs (primary button + WhatsApp)
+2. About — Vision, Mission, Uniqueness (3-card layout)
+3. Services/Offerings — What's included
+4. Process — Numbered steps (01, 02, 03...)
+5. Pricing — Tiered pricing cards
+6. CTA Section — Full-width "Ready to get started?" + WhatsApp + form
+7. Footer — Consistent across all pages
 
 ---
 
 ## 🎨 Design System
 
-### Aesthetic
-- **Vibe**: Bold & energetic — startup energy, not corporate
-- **Feel**: Dark-first with brand navy/teal accents, strong typography, confident layouts
-- **Avoid**: Generic AI aesthetics, purple gradients, Inter/Roboto fonts, cookie-cutter layouts
-
 ### Official Brand Colors
 
 #### Primary Colors
 ```
-ABIT Blue  → #003366   RGB(0, 51, 102)     HSB(210°, 100%, 40%)
-ABIT Teal  → #0CC7B4   RGB(12, 199, 180)   HSB(174°, 94%, 98%)
+ABIT Blue   → #003366   RGB(0, 51, 102)
+ABIT Teal   → #0CC7B4   RGB(12, 199, 180)
 ```
 
 #### Secondary Colors
 ```
-Abit Purple → #660050   RGB(102, 0, 80)     HSB(312°, 100%, 40%)
-Abit Green  → #146600   RGB(20, 102, 0)     HSB(108°, 100%, 40%)
-Abit Orange → #C7680C   RGB(199, 104, 12)   HSB(29°, 94%, 78%)
+Abit Purple → #660050   RGB(102, 0, 80)
+Abit Green  → #146600   RGB(20, 102, 0)
+Abit Orange → #C7680C   RGB(199, 104, 12)
 ```
 
 #### Greyscale Palette
 ```
-#000810   RGB(0, 8, 16)       — Deepest dark (near black, blue tint)
-#1A2128   RGB(26, 33, 40)     — Dark surface
-#4D5259   RGB(77, 82, 89)     — Medium dark
-#808488   RGB(128, 132, 136)  — Mid grey
-#999C9F   RGB(153, 156, 159)  — Light mid grey
-#CDCECF   RGB(205, 206, 207)  — Light grey
-#E6E6E7   RGB(230, 230, 231)  — Near white grey
-#F3F3F3   RGB(243, 243, 243)  — Off white
+#000810   — Deepest dark (near black, blue tint)
+#1A2128   — Dark surface
+#4D5259   — Medium dark
+#808488   — Mid grey
+#999C9F   — Light mid grey
+#CDCECF   — Light grey
+#E6E6E7   — Near white grey
+#F3F3F3   — Off white
 ```
 
-### CSS Variables (use these consistently)
+### CSS Variables
 ```css
 --color-blue:    #003366;
 --color-teal:    #0CC7B4;
@@ -155,29 +213,33 @@ Abit Orange → #C7680C   RGB(199, 104, 12)   HSB(29°, 94%, 78%)
 --color-green:   #146600;
 --color-orange:  #C7680C;
 
-/* Dark theme backgrounds */
---bg:            #000810;   /* Deepest background */
---surface:       #1A2128;   /* Card / section backgrounds */
---surface2:      #4D5259;   /* Elevated surfaces, borders */
---text:          #F3F3F3;   /* Primary text on dark */
---text-muted:    #999C9F;   /* Secondary / muted text */
+--bg:            #000810;
+--surface:       #1A2128;
+--surface2:      #4D5259;
+--text:          #F3F3F3;
+--text-muted:    #999C9F;
 --border:        rgba(77, 82, 89, 0.5);
 ```
+
+### Service Color Coding
+- Software Development → `--color-teal` (#0CC7B4)
+- Tech Academy (Training) → `--color-orange` (#C7680C)
+- Content Studio → `--color-purple` (#660050)
+- Co-working Space → `--color-blue` (#003366)
 
 ### Typography
 ```
 Primary Brand Typeface: Elms Sans
-  — Utilitarian geometric sans-serif
-  — 9 weights: Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold, Black
-  — Variable axes: weight + italics
-  — Use for ALL headings, UI elements, and body text
-  — Self-host from /public/fonts/ directory
+— 18 weights including italics
+— Variable font: ElmsSans-VariableFont_wght.ttf
+— Self-host from /public/fonts/ directory
+— Use for ALL headings, UI elements, and body text
 
 Fallback stack: 'Elms Sans', system-ui, sans-serif
 ```
 
-> ⚠️ **Important**: Elms Sans is the ONLY typeface used across the entire brand.
-> Do NOT use Google Fonts (Syne, DM Sans, etc.) — these were placeholders before brand assets were received.
+> ⚠️ Elms Sans is the ONLY typeface used across the entire brand.
+> Do NOT use Google Fonts (Syne, DM Sans, Inter, Roboto etc.)
 
 ### Logo Usage
 ```
@@ -186,252 +248,35 @@ Fallback stack: 'Elms Sans', system-ui, sans-serif
 ├── Logo_White.svg         ← Use on dark/colored backgrounds (main website use)
 ├── Logo_Navy_Blue.svg     ← Use on light or teal backgrounds
 ├── Logo_Black.svg         ← Greyscale / print use
-├── Icon_Original.svg      ← Favicon, app icon, small spaces (navy + teal)
+├── Icon_Original.svg      ← Favicon, app icon, small spaces
 └── Icon_White.svg         ← Icon on dark backgrounds
 ```
 
 **Logo rules:**
-- Always use SVG versions for web (never PNG unless pixel art context)
+- Always use SVG versions for web
 - On dark website backgrounds → use `Logo_White.svg`
 - In the navbar → use `Logo_White.svg`
 - Never distort, recolor, or apply effects to the logo
-- Minimum clear space = height of the letter "a" on all sides
-
-### Service Color Coding
-- Software Development → `--color-teal` (#0CC7B4)
-- Training (IT Skills + Software Dev) → `--color-orange` (#C7680C)
-- Content Studio → `--color-purple` (#660050)
 
 ---
 
-## 📦 Brand Assets Setup
+## 📦 Font Setup (Elms Sans)
 
-### Font Setup (Elms Sans)
-
-**Step 1** — Convert all `.ttf` to `.woff2` (run once in project root):
+**Step 1** — Convert all `.ttf` to `.woff2`:
 ```bash
-# Install conversion tool
 pnpm add -g ttf2woff2
-
-# Batch convert all fonts
 for f in public/fonts/*.ttf; do ttf2woff2 < "$f" > "${f%.ttf}.woff2"; done
 ```
 
-**Step 2** — Place ALL font files in `/public/fonts/` (both .ttf originals and converted .woff2)
+**Step 2** — Place all font files in `/public/fonts/`
 
-Full font file list:
-```
-ElmsSans-Thin.ttf / .woff2
-ElmsSans-ThinItalic.ttf / .woff2
-ElmsSans-ExtraLight.ttf / .woff2
-ElmsSans-ExtraLightItalic.ttf / .woff2
-ElmsSans-Light.ttf / .woff2
-ElmsSans-LightItalic.ttf / .woff2
-ElmsSans-Regular.ttf / .woff2
-ElmsSans-Italic.ttf / .woff2
-ElmsSans-Medium.ttf / .woff2
-ElmsSans-MediumItalic.ttf / .woff2
-ElmsSans-SemiBold.ttf / .woff2
-ElmsSans-SemiBoldItalic.ttf / .woff2
-ElmsSans-Bold.ttf / .woff2
-ElmsSans-BoldItalic.ttf / .woff2
-ElmsSans-ExtraBold.ttf / .woff2
-ElmsSans-ExtraBoldItalic.ttf / .woff2
-ElmsSans-Black.ttf / .woff2
-ElmsSans-BlackItalic.ttf / .woff2
-```
-
-**Step 3** — Declare in `src/app/globals.css`:
-
-```css
-/* Thin — 100 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Thin.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-ThinItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-ThinItalic.ttf') format('truetype');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ExtraLight — 200 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-ExtraLight.woff2') format('woff2'),
-       url('/fonts/ElmsSans-ExtraLight.ttf') format('truetype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-ExtraLightItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-ExtraLightItalic.ttf') format('truetype');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Light — 300 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Light.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-LightItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Regular — 400 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Regular.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Italic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Italic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Medium — 500 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Medium.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-MediumItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* SemiBold — 600 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-SemiBold.woff2') format('woff2'),
-       url('/fonts/ElmsSans-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-SemiBoldItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-SemiBoldItalic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Bold — 700 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Bold.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-BoldItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-BoldItalic.ttf') format('truetype');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ExtraBold — 800 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-ExtraBold.woff2') format('woff2'),
-       url('/fonts/ElmsSans-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-ExtraBoldItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-ExtraBoldItalic.ttf') format('truetype');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Black — 900 */
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-Black.woff2') format('woff2'),
-       url('/fonts/ElmsSans-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Elms Sans';
-  src: url('/fonts/ElmsSans-BlackItalic.woff2') format('woff2'),
-       url('/fonts/ElmsSans-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-```
+**Step 3** — Declare in `src/app/globals.css` with @font-face for all 18 weights (Thin through Black, including italics, weights 100–900)
 
 **Step 4** — In `tailwind.config.ts`:
 ```ts
 fontFamily: {
   sans: ['Elms Sans', 'system-ui', 'sans-serif'],
 }
-```
-
-### Logo Setup
-Copy all SVG/PNG brand files to `/public/brand/`:
-```
-/public/brand/Logo_Original.svg
-/public/brand/Logo_White.svg
-/public/brand/Logo_Navy_Blue.svg
-/public/brand/Logo_Black.svg
-/public/brand/Icon_Original.svg
-/public/brand/Icon_White.svg
-```
-
-Use in code:
-```tsx
-import Image from 'next/image'
-// On dark backgrounds (most of the site):
-<Image src="/brand/Logo_White.svg" alt="AbitHub" width={120} height={40} priority />
-// Favicon — in app/layout.tsx metadata:
-icons: { icon: '/brand/Icon_Original.svg' }
 ```
 
 ---
@@ -441,15 +286,15 @@ icons: { icon: '/brand/Icon_Original.svg' }
 | Layer | Technology |
 |-------|-----------|
 | Package Manager | pnpm |
-| Framework | Next.js 16 (App Router) |
+| Framework | Next.js 14 (App Router) |
 | Language | TypeScript |
 | Styling | Tailwind CSS |
-| Forms | React Hook Form + Resend (email delivery) |
+| Forms | React Hook Form + Resend |
 | Analytics | Google Tag Manager + GA4 |
-| SEO | next/metadata, next-sitemap, JSON-LD structured data |
+| SEO | next/metadata, next-sitemap, JSON-LD |
 | Animations | Framer Motion |
 | Icons | Lucide React |
-| Hosting | Vercel |
+| Hosting | Vercel (target) / Namecheap cPanel (current) |
 
 ---
 
@@ -458,59 +303,60 @@ icons: { icon: '/brand/Icon_Original.svg' }
 ```
 src/
 ├── app/
-│   ├── layout.tsx              # Root layout — fonts, GTM, metadata
-│   ├── page.tsx                # Main hub landing page (routes to 3 services)
+│   ├── layout.tsx
+│   ├── page.tsx                  # Main hub landing (4 service cards)
 │   ├── software/
-│   │   └── page.tsx            # Software Development service page
-│   ├── training/
-│   │   └── page.tsx            # Training service page (IT Skills + Software Dev)
+│   │   └── page.tsx
+│   ├── academy/                  # Was /training — renamed
+│   │   └── page.tsx
 │   ├── studio/
-│   │   └── page.tsx            # Content Studio service page
+│   │   └── page.tsx
+│   ├── coworking/                # NEW page
+│   │   └── page.tsx
 │   └── api/
 │       └── contact/
-│           └── route.ts        # Form submission → Resend email API
+│           └── route.ts
 ├── components/
 │   ├── layout/
-│   │   ├── Navbar.tsx          # Sticky nav: logo + service links + WhatsApp CTA
-│   │   └── Footer.tsx          # Logo, tagline, nav links, contact, socials
+│   │   ├── Navbar.tsx            # 4 service links + WhatsApp CTA
+│   │   └── Footer.tsx
 │   ├── shared/
-│   │   ├── LogoStrip.tsx       # Scrolling partner/client logo strip
-│   │   ├── PricingCard.tsx     # Reusable pricing tier component
-│   │   ├── ContactForm.tsx     # Lead capture form (React Hook Form)
-│   │   ├── ProcessSteps.tsx    # Numbered process steps (01, 02, 03...)
-│   │   ├── WhatsAppButton.tsx  # Persistent WhatsApp CTA button
-│   │   └── SectionHeader.tsx   # Consistent section headings
+│   │   ├── PricingCard.tsx
+│   │   ├── ContactForm.tsx
+│   │   ├── ProcessSteps.tsx
+│   │   ├── WhatsAppButton.tsx
+│   │   └── SectionHeader.tsx
 │   ├── home/
-│   │   ├── Hero.tsx            # Hub hero — "Build. Learn. Innovate."
-│   │   ├── ServicesGrid.tsx    # 3 service cards linking to sub-pages
-│   │   └── WhyAbitHub.tsx      # Differentiators section
+│   │   ├── Hero.tsx
+│   │   ├── ServicesGrid.tsx      # 4 service cards
+│   │   └── WhyAbitHub.tsx
 │   ├── software/
 │   │   ├── Hero.tsx
-│   │   ├── About.tsx           # Vision, Mission, Uniqueness cards
-│   │   ├── Services.tsx        # Alternating image+text service list
-│   │   ├── Portfolio.tsx       # Past projects showcase
-│   │   ├── Process.tsx         # Numbered steps
-│   │   ├── TechStack.tsx       # Categorized tool logos
+│   │   ├── Services.tsx
+│   │   ├── Process.tsx
+│   │   ├── TechStack.tsx
 │   │   └── Pricing.tsx
-│   ├── training/
+│   ├── academy/                  # Was training/
 │   │   ├── Hero.tsx
-│   │   ├── About.tsx
-│   │   ├── TrackSelector.tsx   # Toggle between IT Skills & Software Dev tracks
-│   │   ├── Curriculum.tsx      # Curriculum details per track
+│   │   ├── Tracks.tsx            # 3 tracks + Full Stack bundle
+│   │   ├── Curriculum.tsx        # Per-track curriculum detail
+│   │   ├── Outcomes.tsx          # Certificate, portfolio, GitHub, letter
 │   │   ├── Process.tsx
 │   │   └── Pricing.tsx
-│   └── studio/
+│   ├── studio/
+│   │   ├── Hero.tsx
+│   │   ├── StudioFeatures.tsx
+│   │   ├── Process.tsx
+│   │   └── Pricing.tsx
+│   └── coworking/                # NEW
 │       ├── Hero.tsx
-│       ├── About.tsx
-│       ├── StudioFeatures.tsx  # Equipment, backgrounds, lighting
-│       ├── Portfolio.tsx       # Studio shots / sample work
-│       ├── Process.tsx
+│       ├── Features.tsx
 │       └── Pricing.tsx
 ├── lib/
-│   ├── metadata.ts             # SEO metadata helpers
-│   └── resend.ts               # Email client setup
+│   ├── metadata.ts
+│   └── resend.ts
 └── types/
-    └── index.ts                # Shared TypeScript types
+    └── index.ts
 ```
 
 ---
@@ -521,69 +367,38 @@ Every service page has a contact form that:
 1. Collects: Name, Email, Phone, Service Interest, Message
 2. Validates with React Hook Form + Zod
 3. Submits to `/api/contact` route
-4. Sends email via **Resend** to abithub business email
+4. Sends email via Resend to info@abithub.tech
 5. Shows success/error state to user
-6. Fires a Google Ads conversion event on success
 
 ### Environment Variables Required
 ```env
-RESEND_API_KEY=           # From resend.com
-CONTACT_EMAIL=            # AbitHub receiving email
-NEXT_PUBLIC_GTM_ID=       # Google Tag Manager ID
+RESEND_API_KEY=
+CONTACT_EMAIL=info@abithub.tech
+NEXT_PUBLIC_GTM_ID=
 ```
 
 ---
 
 ## 🔍 SEO Requirements
 
-Every page must have:
-
-```typescript
-// Unique per page
-title: "Service Name | AbitHub — Location"
-description: "150-160 char description with keywords"
-keywords: ["ibadan", "nigeria", "tech", ...service-specific]
-
-// Open Graph
-og:title, og:description, og:image, og:url
-
-// Structured Data (JSON-LD)
-- Organization schema on homepage
-- Service schema on service pages
-- LocalBusiness schema (Soka, Ibadan, Nigeria)
-
-// Technical SEO
-- sitemap.xml (next-sitemap)
-- robots.txt
-- Canonical URLs
-- Fast Core Web Vitals (images optimized, fonts preloaded)
-```
+Every page must have unique title, description, Open Graph tags, and JSON-LD structured data.
 
 ### Target Keywords by Page
-- **Homepage**: "tech hub ibadan", "abithub", "technology ibadan nigeria"
+- **Homepage**: "tech hub ibadan", "abithub", "technology hub soka ibadan"
 - **Software**: "software development ibadan", "web development nigeria", "mobile app ibadan"
-- **Training**: "tech training ibadan", "coding bootcamp nigeria", "IT skills ibadan", "software development training ibadan", "learn to code nigeria"
-- **Studio**: "content studio ibadan", "photo studio soka ibadan", "video studio ibadan"
+- **Academy**: "tech academy ibadan", "software development training ibadan", "coding bootcamp ibadan", "frontend development course nigeria", "UI UX design course ibadan"
+- **Studio**: "content studio ibadan", "photo studio soka ibadan", "portrait photography ibadan"
+- **Co-working**: "coworking space ibadan", "hot desk ibadan", "workspace soka ibadan"
 
 ---
 
 ## 📱 Responsive Breakpoints
 
 ```
-Mobile:  < 640px   — single column, stacked layouts
+Mobile:  < 640px    — single column, stacked layouts
 Tablet:  640-1024px — 2 column grids
-Desktop: > 1024px  — full layouts as designed
+Desktop: > 1024px   — full layouts as designed
 ```
-
----
-
-## ⚡ Performance Standards
-
-- Lighthouse score: 90+ on all pages
-- Images: Always use `next/image` with proper width/height
-- Fonts: Self-hosted via @font-face in globals.css — preload critical weights in layout.tsx `<head>`
-- No layout shift (CLS < 0.1)
-- LCP < 2.5s
 
 ---
 
@@ -593,31 +408,39 @@ Desktop: > 1024px  — full layouts as designed
 - Confident but not arrogant
 - Warm and community-focused
 - Professional but energetic
-- Nigerian context — reference Ibadan, local market, naira pricing where relevant
+- Nigerian context — reference Ibadan, local market, naira pricing
 
 ### Key Differentiators to Emphasize
-- Located in Soka, Ibadan (convenience for locals)
-- Affordable excellence — quality without Lagos prices
-- Triple ecosystem — one hub for software, training, and content
-- Truthfulness as a core value — transparent pricing, honest timelines
+- Located in Soka (New Felele), Ibadan — convenient for locals
+- Solar powered — no NEPA interruptions (major differentiator in Nigeria)
+- 55 Mbps internet — reliable, fast
+- Transparent pricing — no "contact for pricing" vagueness
+- Cohort-based training — small groups, personal attention
+- Four services under one roof
 
 ### Trust Signals to Use
-- "Based in Soka, Ibadan" — local credibility
-- Specific pricing (no "contact for pricing" vagueness)
-- Specific curriculum details (8-week program)
-- Real equipment/studio specs
+- "Based in Soka (New Felele), Ibadan"
+- Specific pricing on all service pages
+- Specific curriculum details per track
+- Solar power and 55 Mbps internet specs
+- Cohort size (maximum 10 students)
 
 ---
 
 ## 🚫 Never Do
 
-- Never use placeholder "Lorem ipsum" text — always use real AbitHub copy
+- Never use placeholder "Lorem ipsum" text
 - Never use generic stock photo URLs — use `/public/images/` or leave as TODO
 - Never hardcode email addresses in frontend — use environment variables
 - Never skip mobile responsiveness
-- Never use Arial, Roboto, or Inter fonts
+- Never use Arial, Roboto, Inter, or Syne fonts — Elms Sans only
 - Never deploy with console.log statements
-- Never create files outside the defined project structure without justification
+- Never describe the studio as a "full-service production house"
+- Never reference "registration fee" — it is a "commitment fee"
+- Never reference "8-week programme" — all training is 3-month cohorts
+- Never reference Track A / IT Skills training — it has been removed
+- Never use "training" as the page/route name — it is "academy"
+- Never show fictional case studies or testimonials
 
 ---
 
@@ -625,21 +448,25 @@ Desktop: > 1024px  — full layouts as designed
 
 A page/component is complete when:
 1. Renders correctly on mobile, tablet, and desktop
-2. All forms submit and send real emails
+2. All forms submit and send real emails to info@abithub.tech
 3. SEO metadata is fully populated
-4. No TypeScript errors (`pnpm build` passes)
+4. No TypeScript errors (pnpm build passes)
 5. Consistent with the design system (colors, fonts, spacing)
-6. Animations are smooth and don't block interaction
+6. All pricing matches the confirmed figures in this file exactly
 
 ---
 
 ## 📞 Contact & Business Info
 
-- **Location**: Soka, Ibadan, Oyo State, Nigeria
+- **Full name**: Abit Technology Hub
+- **Short name**: Abit Hub
+- **Address**: No. 12 Unity Street, Adjacent to Addin, Along Idi Mango Rd, Soka (New Felele), Ibadan, Oyo State, Nigeria
+- **Phone**: +234 815 385 3704
+- **Email**: info@abithub.tech
 - **Website**: www.abithub.tech
-- **Social**: Instagram, WhatsApp, LinkedIn (handles TBD)
-- **Payment**: Paystack (local NGN), international via freelance platforms
+- **Social**: @abithub (Instagram, TikTok, X)
+- **WhatsApp**: +234 815 385 3704
 
 ---
 
-*Last updated: March 2026 | This file must be kept in sync with business decisions.*
+*Last updated: April 2026 | Keep this file in sync with all business decisions.*

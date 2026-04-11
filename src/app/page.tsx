@@ -12,7 +12,7 @@ import {
 export const metadata = createMetadata({
   title: "Build. Learn. Innovate.",
   description:
-    "AbitHub is a technology ecosystem in Soka, Ibadan, Nigeria — offering software development, tech training, and content studio services.",
+    "AbitHub is a technology hub in Soka, Ibadan, Nigeria — offering software development, tech academy training, content studio, and co-working space.",
   keywords: ["tech hub ibadan", "abithub", "technology ibadan nigeria"],
   path: "",
 });
