@@ -24,7 +24,7 @@ const cards = [
   },
 ];
 
-export default function TrainingAbout() {
+export default function AcademyAbout() {
   return (
     <section className="border-t border-border px-5 py-20 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-7xl">

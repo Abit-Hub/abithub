@@ -7,7 +7,7 @@ interface CTASectionProps {
   heading?: string;
   subtext?: string;
   whatsappMessage?: string;
-  defaultService?: "software" | "training" | "studio" | "general";
+  defaultService?: "software" | "academy" | "studio" | "coworking" | "general";
   accentColor?: string;
 }
 

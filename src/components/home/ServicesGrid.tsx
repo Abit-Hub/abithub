@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Code2, GraduationCap, Camera } from "lucide-react";
+import { Code2, GraduationCap, Camera, Building2 } from "lucide-react";
 
 const services = [
   {
@@ -15,13 +15,13 @@ const services = [
     tag: "From $500",
   },
   {
-    href: "/training",
+    href: "/academy",
     icon: GraduationCap,
-    title: "Training",
+    title: "Tech Academy",
     description:
-      "IT skills, digital literacy, and hands-on software development training. Flexible and 3-month programmes for individuals and corporate teams.",
+      "Cohort-based software development training. Frontend, UI/UX Design, and Backend tracks — 3-month programmes, maximum 10 students per cohort.",
     accent: "var(--color-orange)",
-    tag: "From \u20A628,000",
+    tag: "From \u20A6350,000",
   },
   {
     href: "/studio",
@@ -31,6 +31,15 @@ const services = [
       "Professional content studio in Soka (New Felele), Ibadan. Track lighting, ring lights, styled backdrops, props and furniture — bring your own equipment or book with our partner photographer.",
     accent: "var(--color-purple)",
     tag: "From \u20A63,000",
+  },
+  {
+    href: "/coworking",
+    icon: Building2,
+    title: "Co-working Space",
+    description:
+      "Professional workspace with 55 Mbps internet and solar power — no NEPA interruptions. Hot desks and private rooms for freelancers, remote workers, and entrepreneurs.",
+    accent: "var(--color-blue)",
+    tag: "From \u20A63,000/day",
   },
 ];
 
@@ -49,7 +58,7 @@ export default function ServicesGrid() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-3xl font-bold tracking-tight text-[var(--text)] sm:text-4xl">
-            Three ecosystems, one hub
+            Four services, one hub
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-[var(--text-muted)]">
             Everything you need to build, learn, and create — under one roof in
@@ -57,7 +66,7 @@ export default function ServicesGrid() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, i) => (
             <motion.div
               key={service.href}

@@ -71,7 +71,7 @@ export function organizationJsonLd() {
     url: SITE_URL,
     logo: `${SITE_URL}/brand/Logo_Original.svg`,
     description:
-      "A technology ecosystem in Soka, Ibadan — offering software development, tech training, and a professional content studio.",
+      "A technology hub in Soka, Ibadan — offering software development, tech academy training, content studio, and co-working space.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Soka, Ibadan",
@@ -90,7 +90,7 @@ export function localBusinessJsonLd() {
     url: SITE_URL,
     logo: `${SITE_URL}/brand/Logo_Original.svg`,
     description:
-      "Technology hub offering software development, tech training, and a professional content studio in Soka, Ibadan, Nigeria.",
+      "Technology hub offering software development, tech academy training, content studio, and co-working space in Soka, Ibadan, Nigeria.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Soka",

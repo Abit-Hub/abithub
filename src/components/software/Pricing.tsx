@@ -46,7 +46,7 @@ const tiers = [
   },
   {
     name: "Mobile App",
-    price: "$10,000+",
+    price: "$20,000",
     description: "Cross-platform mobile app for iOS and Android.",
     features: [
       "iOS & Android (React Native)",

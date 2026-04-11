@@ -10,8 +10,9 @@ import ThemeLogo from "@/components/shared/ThemeLogo";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/software", label: "Software" },
-  { href: "/training", label: "Training" },
+  { href: "/academy", label: "Academy" },
   { href: "/studio", label: "Studio" },
+  { href: "/coworking", label: "Co-working" },
 ];
 
 const WHATSAPP_URL = "https://wa.me/2348153853704";
