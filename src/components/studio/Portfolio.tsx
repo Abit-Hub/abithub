@@ -35,7 +35,7 @@ export default function StudioPortfolio() {
     <section className="px-5 py-20 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
-          <span className="text-sm font-semibold uppercase tracking-widest text-[var(--color-purple)]">
+          <span className="text-sm font-semibold uppercase tracking-widest text-[var(--color-studio)]">
             Studio Shots
           </span>
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-[var(--text)] sm:text-4xl">
@@ -61,14 +61,14 @@ export default function StudioPortfolio() {
               <div className="flex h-44 items-center justify-center rounded-lg bg-[var(--bg)]">
                 <Camera
                   size={28}
-                  className="text-[var(--surface2)] transition-colors group-hover:text-[var(--color-purple)]"
+                  className="text-[var(--surface2)] transition-colors group-hover:text-[var(--color-studio)]"
                 />
               </div>
 
               <h3 className="mt-5 text-lg font-bold text-[var(--text)]">
                 {shoot.title}
               </h3>
-              <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-[var(--color-purple)]">
+              <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-[var(--color-studio)]">
                 {shoot.client}
               </p>
               <p className="mt-3 text-sm leading-relaxed text-[var(--text-muted)]">

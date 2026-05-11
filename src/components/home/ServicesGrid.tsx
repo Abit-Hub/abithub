@@ -12,7 +12,7 @@ const services = [
     description:
       "Full-stack web and mobile apps built for Nigerian businesses and international clients. From landing pages to complex platforms.",
     accent: "var(--color-teal)",
-    tag: "From $500",
+    tag: "From ₦250,000",
   },
   {
     href: "/academy",
@@ -37,7 +37,7 @@ const services = [
     icon: Building2,
     title: "Co-working Space",
     description:
-      "Professional workspace with 55 Mbps internet and solar power — no NEPA interruptions. Hot desks and private rooms for freelancers, remote workers, and entrepreneurs.",
+      "Professional workspace built for focus — fast internet, uninterrupted power, and a calm environment. Hot desks and private rooms for freelancers, remote workers, and entrepreneurs.",
     accent: "var(--color-blue)",
     tag: "From \u20A63,000/day",
   },

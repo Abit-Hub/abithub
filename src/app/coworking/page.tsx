@@ -8,7 +8,7 @@ import { createMetadata, serviceJsonLd } from "@/lib/metadata";
 export const metadata = createMetadata({
   title: "Co-working Space",
   description:
-    "Professional co-working space in Soka (New Felele), Ibadan. 55 Mbps internet, solar power, hot desks and private rooms for freelancers, remote workers, and entrepreneurs.",
+    "Professional co-working space in Soka (New Felele), Ibadan. Fast internet, uninterrupted power, hot desks and private rooms for freelancers, remote workers, and entrepreneurs.",
   keywords: [
     "coworking space ibadan",
     "hot desk ibadan",
@@ -29,7 +29,7 @@ export default function CoworkingPage() {
             serviceJsonLd({
               name: "Co-working Space",
               description:
-                "Professional co-working space with 55 Mbps internet and solar power in Soka (New Felele), Ibadan. Hot desks and private rooms.",
+                "Professional co-working space with fast internet and uninterrupted power in Soka (New Felele), Ibadan. Hot desks and private rooms.",
               path: "/coworking",
             })
           ),
@@ -52,7 +52,7 @@ export default function CoworkingPage() {
       <CoworkingPricing />
       <CTASection
         heading="Ready to get some real work done?"
-        subtext="55 Mbps internet, solar power, no distractions — just walk in or book ahead."
+        subtext="Fast internet, uninterrupted power, no distractions — just walk in or book ahead."
         whatsappMessage="Hi AbitHub! I'm interested in your co-working space."
         defaultService="coworking"
         accentColor="var(--color-blue)"

@@ -2,7 +2,7 @@ import SoftwareHero from "@/components/software/Hero";
 import LogoStrip from "@/components/shared/LogoStrip";
 import SoftwareAbout from "@/components/software/About";
 import SoftwareServices from "@/components/software/Services";
-import SoftwarePortfolio from "@/components/software/Portfolio";
+// import SoftwarePortfolio from "@/components/software/Portfolio";
 import SoftwareProcess from "@/components/software/Process";
 import SoftwareTechStack from "@/components/software/TechStack";
 import SoftwarePricing from "@/components/software/Pricing";
@@ -54,7 +54,7 @@ export default function SoftwarePage() {
       />
       <SoftwareAbout />
       <SoftwareServices />
-      <SoftwarePortfolio />
+      {/* <SoftwarePortfolio /> */}
       <SoftwareProcess />
       <SoftwareTechStack />
       <SoftwarePricing />

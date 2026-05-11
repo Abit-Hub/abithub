@@ -11,7 +11,7 @@ const hotDeskTiers = [
     description: "Drop in for a full day of focused work.",
     features: [
       "Full-day access",
-      "High-speed internet (55 Mbps)",
+      "High-speed internet",
       "Solar power — no interruptions",
       "Professional environment",
     ],
@@ -22,7 +22,7 @@ const hotDeskTiers = [
     description: "A full week of productive workspace.",
     features: [
       "5-day access (Mon–Fri)",
-      "High-speed internet (55 Mbps)",
+      "High-speed internet",
       "Solar power — no interruptions",
       "Professional environment",
     ],
@@ -34,7 +34,7 @@ const hotDeskTiers = [
     description: "Your dedicated workspace for the month.",
     features: [
       "Full month access",
-      "High-speed internet (55 Mbps)",
+      "High-speed internet",
       "Solar power — no interruptions",
       "Professional environment",
     ],

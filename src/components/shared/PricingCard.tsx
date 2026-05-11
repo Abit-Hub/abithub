@@ -11,6 +11,7 @@ interface PricingCardProps {
   accent?: string;
   featured?: boolean;
   index?: number;
+  from?: boolean;
 }
 
 export default function PricingCard({
@@ -21,6 +22,7 @@ export default function PricingCard({
   accent = "var(--color-teal)",
   featured = false,
   index = 0,
+  from = false,
 }: PricingCardProps) {
   return (
     <motion.div
@@ -46,6 +48,11 @@ export default function PricingCard({
       <p className="mt-1 text-sm text-muted">{description}</p>
 
       <div className="mt-5">
+        {from && (
+          <span className="block text-xs font-medium uppercase tracking-widest text-muted">
+            starting from
+          </span>
+        )}
         <span className="text-3xl font-black" style={{ color: accent }}>
           {price}
         </span>

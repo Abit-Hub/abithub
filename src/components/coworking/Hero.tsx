@@ -38,9 +38,9 @@ export default function CoworkingHero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg leading-relaxed text-[var(--text-muted)]"
         >
-          Professional workspace with 55 Mbps internet and solar power — no NEPA
-          interruptions. Hot desks and private rooms for freelancers, remote
-          workers, and entrepreneurs in Soka (New Felele), Ibadan.
+          A professional workspace built for focus — fast internet, uninterrupted
+          power, and a calm environment. Hot desks and private rooms for
+          freelancers, remote workers, and entrepreneurs in Soka (New Felele), Ibadan.
         </motion.p>
 
         <motion.div

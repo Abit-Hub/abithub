@@ -4,7 +4,7 @@ import PricingCard from "@/components/shared/PricingCard";
 const tiers = [
   {
     name: "Landing Page",
-    price: "$500",
+    price: "₦250,000",
     description: "Single-page website to showcase your brand or product.",
     features: [
       "Responsive single-page design",
@@ -17,7 +17,7 @@ const tiers = [
   },
   {
     name: "Business Website",
-    price: "$2,000",
+    price: "₦750,000",
     description: "Multi-page website for established businesses.",
     features: [
       "Up to 8 pages",
@@ -32,7 +32,7 @@ const tiers = [
   },
   {
     name: "Web Application",
-    price: "$5,000+",
+    price: "₦2,000,000",
     description: "Custom web app with backend, auth, and dashboards.",
     features: [
       "Custom architecture & design",
@@ -46,7 +46,7 @@ const tiers = [
   },
   {
     name: "Mobile App",
-    price: "$20,000",
+    price: "₦6,000,000",
     description: "Cross-platform mobile app for iOS and Android.",
     features: [
       "iOS & Android (React Native)",
@@ -77,6 +77,7 @@ export default function SoftwarePricing() {
               {...tier}
               accent="var(--color-teal)"
               index={i}
+              from
             />
           ))}
         </div>
