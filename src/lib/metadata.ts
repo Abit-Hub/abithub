@@ -74,7 +74,8 @@ export function organizationJsonLd() {
       "A technology hub in Soka, Ibadan — offering software development, tech academy training, content studio, and co-working space.",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Soka, Ibadan",
+      streetAddress: "No. 14 Unity Street, Adjacent to Addin, Along Idi Mango Rd, Soka (New Felele)",
+      addressLocality: "Ibadan",
       addressRegion: "Oyo State",
       addressCountry: "NG",
     },
@@ -93,7 +94,7 @@ export function localBusinessJsonLd() {
       "Technology hub offering software development, tech academy training, content studio, and co-working space in Soka, Ibadan, Nigeria.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Soka",
+      streetAddress: "No. 14 Unity Street, Adjacent to Addin, Along Idi Mango Rd, Soka (New Felele)",
       addressLocality: "Ibadan",
       addressRegion: "Oyo State",
       addressCountry: "NG",

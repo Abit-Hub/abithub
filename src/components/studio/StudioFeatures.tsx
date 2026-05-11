@@ -47,7 +47,7 @@ export default function StudioFeatures() {
     <section className="px-5 py-20 lg:px-8 lg:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
-          <span className="text-sm font-semibold uppercase tracking-widest text-[var(--color-purple)]">
+          <span className="text-sm font-semibold uppercase tracking-widest text-[var(--color-studio)]">
             What&apos;s Included
           </span>
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-[var(--text)] sm:text-4xl">
@@ -68,8 +68,8 @@ export default function StudioFeatures() {
               transition={{ duration: 0.4, delay: i * 0.08 }}
               className="rounded-2xl border border-border bg-[var(--surface)] p-7"
             >
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-purple)]/10">
-                <feature.icon size={20} className="text-[var(--color-purple)]" />
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[var(--color-studio)]/10">
+                <feature.icon size={20} className="text-[var(--color-studio)]" />
               </div>
               <h3 className="mt-4 text-base font-bold text-[var(--text)]">
                 {feature.title}

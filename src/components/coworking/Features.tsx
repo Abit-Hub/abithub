@@ -1,20 +1,20 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Wifi, Sun, Monitor, Camera } from "lucide-react";
+import { Wifi, Zap, Monitor, Camera } from "lucide-react";
 
 const features = [
   {
     icon: Wifi,
-    title: "55 Mbps Internet",
+    title: "Fast, Reliable Internet",
     description:
-      "Airtel ODU unlimited — fast, reliable connectivity for video calls, uploads, and heavy workflows.",
+      "High-speed broadband built for remote work — video calls, large uploads, and cloud tools run without interruption.",
   },
   {
-    icon: Sun,
-    title: "Solar Power",
+    icon: Zap,
+    title: "Uninterrupted Power",
     description:
-      "3.2KVA inverter, 2\u00D7220AH tubular batteries, 4 panels — no NEPA interruptions, ever.",
+      "Solar-backed electricity keeps you working through any outage. When NEPA goes, you keep going.",
   },
   {
     icon: Monitor,

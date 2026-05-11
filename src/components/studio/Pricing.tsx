@@ -133,7 +133,7 @@ function TierGroup({ label, subtitle, tiers, note, columns = "lg:grid-cols-3" }:
           <PricingCard
             key={tier.name}
             {...tier}
-            accent="var(--color-purple)"
+            accent="var(--color-studio)"
             index={i}
           />
         ))}
@@ -154,7 +154,7 @@ export default function StudioPricing() {
           label="Pricing"
           heading="Affordable studio sessions"
           subtext="Professional studio quality without the Lagos price tag. Choose the option that fits your needs."
-          accent="var(--color-purple)"
+          accent="var(--color-studio)"
         />
 
         <div className="mt-14 space-y-16">
@@ -187,7 +187,7 @@ export default function StudioPricing() {
                 No appointment needed — just walk in and shoot.
               </p>
               <div className="mt-5">
-                <span className="text-3xl font-black text-[var(--color-purple)]">
+                <span className="text-3xl font-black text-[var(--color-studio)]">
                   {"\u20A6"}3,000
                 </span>
                 <span className="ml-1 text-sm text-[var(--text-muted)]">
@@ -224,7 +224,7 @@ export default function StudioPricing() {
                     <span className="text-[var(--text-muted)]">
                       {addon.item}
                     </span>
-                    <span className="font-semibold text-[var(--color-purple)]">
+                    <span className="font-semibold text-[var(--color-studio)]">
                       {addon.price}
                     </span>
                   </li>

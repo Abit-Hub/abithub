@@ -31,9 +31,9 @@ export default function StudioProcess() {
         <SectionHeader
           label="How It Works"
           heading="Book, show up, create"
-          accent="var(--color-purple)"
+          accent="var(--color-studio)"
         />
-        <ProcessSteps steps={steps} accent="var(--color-purple)" />
+        <ProcessSteps steps={steps} accent="var(--color-studio)" />
       </div>
     </section>
   );

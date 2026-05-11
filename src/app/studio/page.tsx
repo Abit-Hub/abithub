@@ -48,7 +48,7 @@ export default function StudioPage() {
           { name: "Fashion Brands" },
         ]}
         label="Who uses our studio"
-        accent="var(--color-purple)"
+        accent="var(--color-studio)"
       />
       <StudioAbout />
       <StudioFeatures />
@@ -59,7 +59,7 @@ export default function StudioPage() {
         subtext="Book the studio for your next shoot or event."
         whatsappMessage="Hi AbitHub! I'd like to book the content studio."
         defaultService="studio"
-        accentColor="var(--color-purple)"
+        accentColor="var(--color-studio)"
       />
     </>
   );

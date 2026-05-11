@@ -187,7 +187,7 @@
   /* Service accent colors */
   --color-software: var(--color-teal);
   --color-training: var(--color-orange);
-  --color-studio: var(--color-purple);
+  --color-studio: #A855F7;
 }
 
 /* Light mode overrides */

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const WHATSAPP_URL =
@@ -9,15 +10,20 @@ const WHATSAPP_URL =
 export default function StudioHero() {
   return (
     <section className="relative flex min-h-[85vh] items-center overflow-hidden px-5 lg:px-8">
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-32 right-1/4 h-[500px] w-[500px] rounded-full bg-[var(--color-purple)] opacity-[0.08] blur-[120px]" />
-      </div>
+      <Image
+        src="/images/hero-studio.png"
+        alt="Abit Hub Content Studio — professional lighting and backdrops"
+        fill
+        className="object-cover"
+        priority
+      />
+      <div className="absolute inset-0 z-[1] bg-[var(--bg)]/75" />
 
       <div className="relative z-10 mx-auto max-w-4xl">
         <motion.span
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="text-sm font-semibold uppercase tracking-widest text-[var(--color-purple)]"
+          className="text-sm font-semibold uppercase tracking-widest text-[var(--color-studio)]"
         >
           Content Studio
         </motion.span>
@@ -29,7 +35,7 @@ export default function StudioHero() {
           className="mt-4 text-4xl font-black leading-[1.1] tracking-tight text-[var(--text)] sm:text-5xl lg:text-6xl"
         >
           Your content deserves a{" "}
-          <span className="text-[var(--color-purple)]">professional stage</span>
+          <span className="text-[var(--color-studio)]">professional stage</span>
         </motion.h1>
 
         <motion.p
@@ -53,13 +59,13 @@ export default function StudioHero() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 items-center justify-center rounded-full bg-[var(--color-purple)] px-8 text-base font-semibold text-white transition-opacity hover:opacity-90"
+            className="inline-flex h-12 items-center justify-center rounded-full bg-[var(--color-studio)] px-8 text-base font-semibold text-white transition-opacity hover:opacity-90"
           >
             Book the Studio
           </a>
           <a
             href="#pricing"
-            className="inline-flex h-12 items-center justify-center rounded-full border border-[var(--surface2)] px-8 text-base font-medium text-[var(--text)] transition-colors hover:border-[var(--color-purple)] hover:text-[var(--color-purple)]"
+            className="inline-flex h-12 items-center justify-center rounded-full border border-[var(--surface2)] px-8 text-base font-medium text-[var(--text)] transition-colors hover:border-[var(--color-studio)] hover:text-[var(--color-studio)]"
           >
             See Pricing
           </a>

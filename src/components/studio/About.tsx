@@ -38,8 +38,8 @@ export default function StudioAbout() {
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="rounded-2xl border border-border bg-[var(--surface)] p-8"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-purple)]/10">
-                <card.icon size={24} className="text-[var(--color-purple)]" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-studio)]/10">
+                <card.icon size={24} className="text-[var(--color-studio)]" />
               </div>
               <h3 className="mt-5 text-lg font-bold text-[var(--text)]">
                 {card.title}

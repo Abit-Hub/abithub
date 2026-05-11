@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const WHATSAPP_URL = "https://wa.me/2348153853704";
@@ -7,11 +8,14 @@ const WHATSAPP_URL = "https://wa.me/2348153853704";
 export default function Hero() {
   return (
     <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden px-5 lg:px-8">
-      {/* Gradient background accent */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-[var(--color-teal)] opacity-[0.07] blur-[120px]" />
-        <div className="absolute -bottom-40 right-0 h-[400px] w-[400px] rounded-full bg-[var(--color-blue)] opacity-[0.1] blur-[100px]" />
-      </div>
+      <Image
+        src="/images/hero-home.jpg"
+        alt="Abit Technology Hub — Soka, Ibadan"
+        fill
+        className="object-cover"
+        priority
+      />
+      <div className="absolute inset-0 z-[1] bg-[var(--bg)]/75" />
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
         <motion.h1
